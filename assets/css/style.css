@@ -135,6 +135,8 @@ h1, h2 {
     margin: 0 auto;
 }
 
+
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -318,4 +320,23 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #photos {
+        column-count: 2;
+    }
+    
 }
